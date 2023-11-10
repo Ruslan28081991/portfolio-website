@@ -1,0 +1,21 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Manrope', sans-serif;
+    width: 100%;
+    background: #FFFFFF;
+}
+
+header {
+    height: 765px;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1150px;
+    padding: 0 15px;
+}
+
+.navigation {}
