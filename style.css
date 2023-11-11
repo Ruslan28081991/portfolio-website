@@ -3,12 +3,14 @@ html {
 }
 
 body {
-    font-family: 'Manrope', sans-serif;
+    font-family: IBM Plex Mono;
     width: 100%;
     background: #FFFFFF;
 }
 
 header {
+    background-image: url('image/image.png');
+    width: 1400px;
     height: 765px;
 }
 
@@ -18,4 +20,64 @@ header {
     padding: 0 15px;
 }
 
-.navigation {}
+.main {}
+
+.main__navigation {
+    margin-bottom: 270px;
+    height: 60px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.main__navigation-buttons {
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navigation__btn {
+    color: #FFF;
+    font-size: 18px;
+    line-height: normal;
+    letter-spacing: -0.54px;
+    text-decoration: none;
+}
+
+.main__text {
+    margin-bottom: 30px;
+    width: 430px;
+    height: 103px;
+    flex-shrink: 0;
+    color: #FFF;
+    font-size: 20px;
+    line-height: normal;
+    letter-spacing: -0.6px;
+}
+
+.main__title {
+    width: 919px;
+    height: 205px;
+    flex-shrink: 0;
+    color: #1BFF07;
+    font-size: 80px;
+    line-height: 70px;
+    letter-spacing: -2.4px;
+}
+
+main {
+    background-color: #000;
+}
+
+.projects {
+    padding: 90px 0;
+}
+
+.projects__title {
+    margin-bottom: 40px;
+    width: 1048px;
+    color: #FFF;
+    font-size: 55px;
+    line-height: normal;
+    letter-spacing: -1.65px;
+}
