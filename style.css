@@ -28,7 +28,7 @@ main {
     margin-bottom: 270px;
     height: 60px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -67,11 +67,11 @@ main {
     letter-spacing: -2.4px;
 }
 
-.projects {
+.project {
     padding: 90px 0;
 }
 
-.projects__title {
+.project__title {
     margin-bottom: 40px;
     width: 1048px;
     color: #FFF;
@@ -80,7 +80,7 @@ main {
     letter-spacing: -1.65px;
 }
 
-.projects__metrika {
+.project__metrika {
     padding: 60px 65px;
     background-image: url('image/metrika.png');
     background-repeat: no-repeat;
@@ -97,7 +97,7 @@ main {
     cursor: pointer;
 }
 
-.project__title {
+.project__name {
     width: 401px;
     color: #FFF;
     font-size: 35px;
@@ -113,7 +113,7 @@ main {
     letter-spacing: -0.9px;
 }
 
-.projects__nothing {
+.project__nothing {
     padding: 60px 65px;
     background-image: url('image/nothing.png');
     background-repeat: no-repeat;
@@ -121,7 +121,7 @@ main {
     height: 550px;
 }
 
-.projects__toptrip {
+.project__toptrip {
     margin-bottom: 80px;
     padding: 60px 65px;
     background-image: url('image/toptrip.png');
