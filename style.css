@@ -10,6 +10,8 @@ body {
 
 header {
     background-image: url('image/image.png');
+    background-repeat: no-repeat;
+    background-size: cover;
     width: 100%;
     height: 765px;
 }
@@ -68,10 +70,11 @@ main {
 }
 
 .project {
+    margin-bottom: 150px;
     padding: 90px 0;
 }
 
-.project__title {
+h2 {
     margin-bottom: 40px;
     width: 1048px;
     color: #FFF;
@@ -142,4 +145,36 @@ main {
     font-size: 30px;
     line-height: normal;
     letter-spacing: -0.9px;
+}
+
+.competencies__title {
+    margin-bottom: 80px;
+}
+
+.competencies__box {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+}
+
+.svg {
+    margin-bottom: 15px;
+}
+
+.competencies__name {
+    margin-bottom: 15px;
+    color: #1BFF07;
+    font-size: 35px;
+    line-height: normal;
+    letter-spacing: -1.05px;
+}
+
+.competencies__text {
+    align-items: end;
+    align-content: end;
+    width: 535px;
+    color: #FFF;
+    font-size: 22px;
+    line-height: normal;
+    letter-spacing: -0.66px;
 }
