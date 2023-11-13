@@ -191,8 +191,6 @@ h2 {
 }
 
 .competencies__text {
-    align-items: end;
-    align-content: end;
     width: 535px;
     color: #FFF;
     font-size: 22px;
@@ -263,11 +261,10 @@ h2 {
 }
 
 .connection__box {
-    padding: 100px 0;
+    padding-top: 100px;
 }
 
 .connection__title {
-    /* margin-bottom: 60px; */
     width: 520px;
 }
 
