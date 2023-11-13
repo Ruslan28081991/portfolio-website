@@ -23,10 +23,11 @@ header {
 }
 
 main {
+    padding: 150px 0;
     background-color: #000;
 }
 
-.main__navigation {
+.basis__navigation {
     margin-bottom: 270px;
     height: 60px;
     display: flex;
@@ -34,7 +35,7 @@ main {
     align-items: center;
 }
 
-.main__navigation-buttons {
+.basis__navigation-buttons {
     width: 40%;
     display: flex;
     justify-content: space-between;
@@ -48,7 +49,7 @@ main {
     text-decoration: none;
 }
 
-.main__text {
+.basis__text {
     margin-bottom: 30px;
     width: 430px;
     height: 103px;
@@ -59,7 +60,7 @@ main {
     letter-spacing: -0.6px;
 }
 
-.main__title {
+.basis__title {
     width: 919px;
     height: 205px;
     flex-shrink: 0;
@@ -71,7 +72,6 @@ main {
 
 .project {
     margin-bottom: 150px;
-    padding: 90px 0;
 }
 
 h2 {
@@ -147,11 +147,15 @@ h2 {
     letter-spacing: -0.9px;
 }
 
+.competencies {
+    margin-bottom: 150px;
+}
+
 .competencies__title {
     margin-bottom: 80px;
 }
 
-.competencies__box {
+.competencies__container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 40px;
@@ -173,6 +177,52 @@ h2 {
     align-items: end;
     align-content: end;
     width: 535px;
+    color: #FFF;
+    font-size: 22px;
+    line-height: normal;
+    letter-spacing: -0.66px;
+}
+
+.competencies__mg {
+    margin-bottom: 63px;
+}
+
+.work {}
+
+.work__title {
+    width: 403px;
+    color: #FFF;
+    font-size: 35px;
+    line-height: normal;
+    letter-spacing: -1.05px;
+}
+
+.work__container {
+    margin-bottom: 40px;
+}
+
+.work__box {
+    padding: 45px;
+    display: flex;
+    justify-content: space-around;
+    width: 1150px;
+    height: 283px;
+    flex-shrink: 0;
+    border-radius: 30px;
+    background: #191C19;
+}
+
+.work__name {
+    width: 470px;
+    color: #1BFF07;
+    font-family: IBM Plex Mono;
+    font-size: 55px;
+    line-height: 110%;
+    letter-spacing: -1.65px;
+}
+
+.work__text {
+    width: 525px;
     color: #FFF;
     font-size: 22px;
     line-height: normal;
