@@ -13,21 +13,19 @@
 <body>
     <header>
         <div class="container">
-            <div class="basis">
-                <div class="basis__navigation">
-                    <div class="basis__navigation-logo">
-                        <img src="" alt="">
-                    </div>
-                    <div class="basis__navigation-buttons">
-                        <a class="navigation__btn" href="https://ruslan28081991.github.io/portfolio-website/">портфолио</a>
-                        <a class="navigation__btn" href="">компетенции</a>
-                        <a class="navigation__btn" href="">услуги</a>
-                        <a class="navigation__btn" href="">контакты</a>
-                    </div>
+            <nav class="about">
+                <div class="about__navigation-logo">
+                    <img src="" alt="">
                 </div>
-                <p class="basis__text">Разрабатываю имиджевые сайты для малого и среднего бизнеса, которые повышают престиж компании и позволяют выделиться на фоне конкурентов</p>
-                <h1 class="basis__title">Привет, я Руслан — фронтенд разарботчик и дизайнер сайтов</h1>
-            </div>
+                <ul class="about__navigation-buttons">
+                    <li><a class="navigation__btn" href="https://ruslan28081991.github.io/portfolio-website/">портфолио</a></li>
+                    <li><a class="navigation__btn" href="">компетенции</a></li>
+                    <li><a class="navigation__btn" href="">услуги</a></li>
+                    <li><a class="navigation__btn" href="">контакты</a></li>
+                </ul>
+            </nav>
+            <p class="about__text">Разрабатываю имиджевые сайты для малого и среднего бизнеса, которые повышают престиж компании и позволяют выделиться на фоне конкурентов</p>
+            <h1 class="about__title">Привет, я Руслан — фронтенд разарботчик и дизайнер сайтов</h1>
         </div>
     </header>
     <main> 
@@ -53,7 +51,7 @@
                         </li>
                     </ul>
                 </nav>
-                <a href="https://github.com/Ruslan28081991?tab=repositories"><button class="projects__btn">Смотреть все проектый</button></a>
+                <a href="https://github.com/Ruslan28081991?tab=repositories"><button class="projects__btn">Смотреть все проекты</button></a>
             </div>
         </section>
         <section class="competencies">  
@@ -116,15 +114,23 @@
                 </nav>
             </div>
         </section>
-        <section>
-
+        <section class="connection">
+            <img class="connection__img" src="image/programmer.png" alt="программист">
+            <div class="container">
+                <div class="connection__box">
+                    <h2 class="connection__title">Для связи со мной заполните простую форму</h2>
+                    <form class="connection__form">
+                        <input class="connection__input" type="submit" value="Имя Фамилия">
+                        <input class="connection__input" type="submit" value="example@mail.com">
+                    </form> 
+                    <button class="connection__btn">Отправить</button>
+                </div>
+            </div>
         </section>
-        <section>
-
-        </section>
+        <footer>
+        
+        </footer>
     </main>
-    <footer>
-
-    </footer>
+    
 </body>
 </html>
