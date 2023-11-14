@@ -34,21 +34,27 @@
                 <nav>
                     <h2 class="project__title">Самые свежие проекты</h2>
                     <ul>
-                        <li class="project__metrika">
-                            <a href="https://ruslan28081991.github.io/Checkpoint-2/"><button class="porject__btn">дизайн интерьера</button></a>
-                            <h3 class="project__name">Метрика</h3>
-                            <p class="project__text">верстка, настройка</p>
-                        </li>
-                        <li class="project__nothing">
-                            <a href=""><button class="porject__btn">презентация продукта</button></a>
-                            <h3 class="project__name">Nothing</h3>
-                            <p class="project__text">верстка, настройка</p>
-                        </li>
-                        <li class="project__toptrip">
-                            <a href=""><button class="porject__btn">заказ путешествий</button></a>
-                            <h3 class="project__name">TOPTRIP</h3>
-                            <p class="project__text">верстка</p>
-                        </li>
+                        <a class="project__container" href="https://ruslan28081991.github.io/Checkpoint-2/">
+                            <li class="project__metrika">
+                                <button class="porject__btn">дизайн интерьера</button>
+                                <h3 class="project__name">Метрика</h3>
+                                <p class="project__text">верстка, настройка</p>
+                            </li>
+                        </a>
+                        <a class="project__container" href="">
+                            <li class="project__nothing">
+                               <button class="porject__btn">презентация продукта</button>
+                                <h3 class="project__name">Nothing</h3>
+                                <p class="project__text">верстка, настройка</p>
+                            </li>
+                        </a>
+                        <a class="project__container" href="">
+                            <li class="project__toptrip">
+                                <button class="porject__btn">заказ путешествий</button>
+                                <h3 class="project__name">TOPTRIP</h3>
+                                <p class="project__text">верстка</p>
+                            </li>
+                        </a>
                     </ul>
                 </nav>
                 <a href="https://github.com/Ruslan28081991?tab=repositories"><button class="projects__btn">Смотреть все проекты</button></a>
@@ -120,10 +126,10 @@
                 <div class="connection__box">
                     <h2 class="connection__title">Для связи со мной заполните простую форму</h2>
                     <form class="connection__form">
-                        <input class="connection__input" type="submit" value="Имя Фамилия">
-                        <input class="connection__input" type="submit" value="example@mail.com">
+                        <input class="connection__input" type="text" value="Имя Фамилия">
+                        <input class="connection__input" type="email" value="example@mail.com"><br>
+                        <button class="connection__btn">Отправить</button>
                     </form> 
-                    <button class="connection__btn">Отправить</button>
                 </div>
             </div>
         </section>
