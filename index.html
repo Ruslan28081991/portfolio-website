@@ -13,50 +13,48 @@
 <body>
     <header>
         <div class="container">
-            <nav class="about">
-                <div class="about__navigation-logo">
-                    <p class="about__logo-text">Yurevich</p>
+            <nav class="navigation">
+                <div class="navigation__logo">
+                    <p class="navigation__logo-text">Yurevich</p>
                 </div>
-                <ul class="about__navigation-buttons">
-                    <li><a class="about__navigation-btn" href="https://ruslan28081991.github.io/portfolio-website/">портфолио</a></li>
-                    <li><a class="about__navigation-btn" href="#competencies">компетенции</a></li>
-                    <li><a class="about__navigation-btn" href="#work">услуги</a></li>
-                    <li><a class="about__navigation-btn" href="#connection">контакты</a></li>
+                <ul class="navigation__buttons">
+                    <li><a class="navigation__btn" href="https://ruslan28081991.github.io/portfolio-website/">портфолио</a></li>
+                    <li><a class="navigation__btn" href="#competencies">компетенции</a></li>
+                    <li><a class="navigation__btn" href="#work">услуги</a></li>
+                    <li><a class="navigation__btn" href="#connection">контакты</a></li>
                 </ul>
             </nav>
-            <p class="about__text">Разрабатываю имиджевые сайты для малого и среднего бизнеса, которые повышают престиж компании и позволяют выделиться на фоне конкурентов</p>
-            <h1 class="about__title">Привет, я Руслан — фронтенд разарботчик и дизайнер сайтов</h1>
+            <p class="navigation__text">Разрабатываю имиджевые сайты для малого и среднего бизнеса, которые повышают престиж компании и позволяют выделиться на фоне конкурентов</p>
+            <h1 class="navigation__title">Привет, я Руслан — фронтенд разарботчик и дизайнер сайтов</h1>
         </div>
     </header>
     <main> 
         <section class="project">
             <div class="container">
-                <nav>
-                    <h2 class="project__title">Самые свежие проекты</h2>
-                    <ul>
-                        <a class="project__container" href="https://ruslan28081991.github.io/Checkpoint-2/">
-                            <li class="project__metrika">
-                                <button class="porject__btn">дизайн интерьера</button>
-                                <h3 class="project__name">Метрика</h3>
-                                <p class="project__text">верстка, настройка</p>
-                            </li>
+                <h2 class="project__title">Самые свежие проекты</h2>
+                <ul>
+                    <li class="project__metrika">
+                        <a class="project__container bla" href="https://ruslan28081991.github.io/Checkpoint-2/">
+                            <button class="porject__btn">дизайн интерьера</button>
+                            <h3 class="project__name">Метрика</h3>
+                            <p class="project__text">верстка, настройка</p>
                         </a>
+                    </li>
+                    <li class="project__nothing">
                         <a class="project__container" href="">
-                            <li class="project__nothing">
-                               <button class="porject__btn">презентация продукта</button>
-                                <h3 class="project__name">Nothing</h3>
-                                <p class="project__text">верстка, настройка</p>
-                            </li>
+                           <button class="porject__btn">презентация продукта</button>
+                            <h3 class="project__name">Nothing</h3>
+                            <p class="project__text">верстка, настройка</p>
                         </a>
+                    </li>    
+                    <li class="project__toptrip">
                         <a class="project__container" href="">
-                            <li class="project__toptrip">
-                                <button class="porject__btn">заказ путешествий</button>
-                                <h3 class="project__name">TOPTRIP</h3>
-                                <p class="project__text">верстка</p>
-                            </li>
+                            <button class="porject__btn">заказ путешествий</button>
+                            <h3 class="project__name">TOPTRIP</h3>
+                            <p class="project__text">верстка</p>
                         </a>
-                    </ul>
-                </nav>
+                    </li>
+                </ul>
                 <a href="https://github.com/Ruslan28081991?tab=repositories"><button class="projects__btn">Смотреть все проекты</button></a>
             </div>
         </section>
@@ -126,9 +124,9 @@
                 <div class="connection__box">
                     <h2 class="connection__title">Для связи со мной заполните простую форму</h2>
                     <form class="connection__form">
-                        <input class="connection__input" type="text" value="Имя Фамилия">
-                        <input class="connection__input" type="email" value="example@mail.com"><br>
-                        <button class="connection__btn">Отправить</button>
+                        <input class="connection__input" type="text" placeholder="Имя Фамилия">
+                        <p><input class="connection__input" type="email" placeholder="example@mail.com"></p>
+                        <button class="connection__btn" type="submit">Отправить</button>
                     </form> 
                 </div>
             </div>

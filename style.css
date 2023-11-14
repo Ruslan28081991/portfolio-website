@@ -22,7 +22,7 @@ header {
     padding: 0 15px;
 }
 
-.about {
+.navigation {
     margin-bottom: 250px;
     height: 95px;
     display: flex;
@@ -30,14 +30,14 @@ header {
     align-items: center;
 }
 
-.about__navigation-logo {
+.navigation__logo {
     width: 130px;
     height: 39px;
     border-radius: 100px;
     background: #000;
 }
 
-.about__logo-text {
+.navigation__logo-text {
     padding: 0 7px;
     color: #1BFF07;
     font-size: 30px;
@@ -47,13 +47,13 @@ header {
     text-transform: uppercase;
 }
 
-.about__navigation-buttons {
+.navigation__buttons {
     width: 40%;
     display: flex;
     justify-content: space-between;
 }
 
-.about__navigation-btn {
+.navigation__btn {
     color: #FFF;
     font-size: 18px;
     line-height: normal;
@@ -61,7 +61,7 @@ header {
     text-decoration: none;
 }
 
-.about__text {
+.navigation__text {
     margin-bottom: 30px;
     width: 430px;
     height: 103px;
@@ -72,7 +72,7 @@ header {
     letter-spacing: -0.6px;
 }
 
-.about__title {
+.navigation__title {
     width: 919px;
     height: 205px;
     flex-shrink: 0;
@@ -101,13 +101,16 @@ h2 {
 }
 
 .project__container {
+    position: absolute;
     text-decoration: none;
+    width: 100%;
 }
 
 .project__metrika {
     padding: 60px 65px;
     background-image: url('image/metrika.png');
     background-repeat: no-repeat;
+    position: relative;
     border-radius: 30px;
     width: 100%;
     height: 550px;
@@ -280,7 +283,8 @@ h2 {
 }
 
 .connection__box {
-    padding-top: 80px;
+    padding-top: 95px;
+    height: 700px;
 }
 
 .connection__title {
@@ -288,7 +292,7 @@ h2 {
 }
 
 .connection__form {
-    padding: 40px 0;
+    padding: 20px 0;
 }
 
 .connection__input {
@@ -296,11 +300,20 @@ h2 {
     padding: 0 40px;
     width: 490px;
     height: 60px;
+    font-size: 22px;
     text-align: start;
     border-radius: 1000px;
     border: none;
     background: #3B3D3B;
-    color: white;
+    color: #FFF;
+}
+
+.connection__input::-webkit-input-placeholder {
+    color: #FFF;
+}
+
+.connection__input:last-child {
+    margin-bottom: 60px;
 }
 
 .connection__btn {
