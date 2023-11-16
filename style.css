@@ -109,6 +109,10 @@ h2 {
     height: 550px;
 }
 
+.project__box {
+    text-decoration: none;
+}
+
 .project__img {
     position: absolute;
     left: 0;
