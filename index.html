@@ -3,29 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="styles/reset.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&family=Manrope&family=Montserrat:wght@400;700;900&family=Raleway:wght@400;500;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles/main.css">
     <title>Portfolio</title>
 </head>
 <body>
     <header>
         <div class="container">
-            <nav class="navigation">
-                <div class="navigation__logo">
-                    <p class="navigation__logo-text">Yurevich</p>
+            <nav class="nav">
+                <div class="nav__logo">
+                    <p class="nav__logo-text">YRO</p>
                 </div>
-                <ul class="navigation__buttons">
-                    <li><a class="navigation__btn" href="https://ruslan28081991.github.io/portfolio-website/">портфолио</a></li>
-                    <li><a class="navigation__btn" href="#competencies">компетенции</a></li>
-                    <li><a class="navigation__btn" href="#work">услуги</a></li>
-                    <li><a class="navigation__btn" href="#connection">контакты</a></li>
+                <ul class="nav__buttons">
+                    <li><a class="nav__btn" href="https://ruslan28081991.github.io/portfolio-website/">портфолио</a></li>
+                    <li><a class="nav__btn" href="#competencies">компетенции</a></li>
+                    <li><a class="nav__btn" href="#work">услуги</a></li>
+                    <li><a class="nav__btn" href="#connection">контакты</a></li>
                 </ul>
             </nav>
-            <p class="navigation__text">Разрабатываю имиджевые сайты для малого и среднего бизнеса, которые повышают престиж компании и позволяют выделиться на фоне конкурентов</p>
-            <h1 class="navigation__title">Привет, я Руслан — фронтенд разарботчик и дизайнер сайтов</h1>
+            <p class="nav__text">Разрабатываю имиджевые сайты для малого и среднего бизнеса, которые повышают престиж компании и позволяют выделиться на фоне конкурентов</p>
+            <h1 class="nav__title">Привет, я Руслан — фронтенд разарботчик и дизайнер сайтов</h1>
         </div>
     </header>
     <main> 
@@ -34,7 +34,7 @@
                 <h2 class="project__title">Самые свежие проекты</h2>
                 <ul>
                     <li class="project__container">
-                        <a class="project__box" href="https://ruslan28081991.github.io/Checkpoint-2/">
+                        <a class="project__box" href="https://ruslan28081991.github.io/Metrika/">
                             <img class="project__img" src="image/metrika.png" alt="сайт метрика">
                             <span class="porject__span">дизайн интерьера</span>
                             <h3 class="project__name">Метрика</h3>
@@ -42,7 +42,7 @@
                         </a>
                     </li>
                     <li class="project__container">
-                        <a class="project__box" href="/">
+                        <a class="project__box" href="#">
                             <img class="project__img" src="image/nothing.png" alt="сайт презентации наушников">
                             <span class="porject__span">презентация продукта</span>
                             <h3 class="project__name">Nothing</h3>
@@ -50,7 +50,7 @@
                         </a>
                     </li>    
                     <li class="project__container">
-                        <a class="project__box" href="/">
+                        <a class="project__box" href="#">
                             <img class="project__img" src="image/toptrip.png" alt="сайт путешествий">
                             <span class="porject__span">заказ путешествий</span>
                             <h3 class="project__name">TOPTRIP</h3>
@@ -97,7 +97,7 @@
                             <img class="work__img" src="image/development.png" alt="">
                             <div class="work__box">
                                 <h3 class="work__name">Разработка сайта под ключ</h3>
-                                <p class="work__text">Это создание дизайн веб-сайтов, созданный для удобства пользователя и решения бизнес-задач
+                                <p class="work__text">Это создание дизайн веб-сайтов, созданный для удобства пользователя и решения бизнес-задач<br>
                                     Сайты должны быть понятными и удобными, ведь чем понятнее сайт, тем быстрее пользователь совершит целевое действие</p>
                             </div>
                         </li>
@@ -125,10 +125,8 @@
                 <div class="connection__box">
                     <h2 class="connection__title">Для связи со мной заполните простую форму</h2>
                     <form class="connection__form">
-                        <div class="connection__form-container">
-                            <input class="connection__input" type="text" placeholder="Имя Фамилия">
-                            <input class="connection__input" type="email" placeholder="example@mail.com">
-                        </div>
+                        <input class="connection__input" type="text" placeholder="Имя Фамилия">
+                        <input class="connection__input" type="email" placeholder="example@mail.com">
                         <button class="connection__btn" type="submit">Отправить</button>
                     </form> 
                 </div>

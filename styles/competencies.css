@@ -1,0 +1,40 @@
+.competencies {
+    margin-bottom: 150px;
+    color: #FFF;
+}
+
+.competencies__title {
+    margin-bottom: 80px;
+    font-size: 55px;
+    line-height: 72px;
+    letter-spacing: -1.65px;
+}
+
+.competencies__container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 40px;
+}
+
+.competencies__svg {
+    margin-bottom: 10px;
+}
+
+.competencies__name {
+    margin-bottom: 15px;
+    color: #1BFF07;
+    font-size: 35px;
+    line-height: normal;
+    letter-spacing: -1.05px;
+}
+
+.competencies__text {
+    max-width: 553px;
+    font-size: 22px;
+    line-height: 29px;
+    letter-spacing: -0.66px;
+}
+
+.competencies__mg {
+    margin-bottom: 63px;
+}

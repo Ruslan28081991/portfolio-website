@@ -1,0 +1,54 @@
+.nav {
+    margin-bottom: 240px;
+    line-height: 90px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav__logo {
+    max-width: 130px;
+    border-radius: 100px;
+    background: #000;
+}
+
+.nav__logo-text {
+    padding: 0 12px;
+    color: #1BFF07;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
+
+.nav__buttons {
+    width: 44%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav__btn {
+    color: #FFF;
+    font-size: 18px;
+    line-height: normal;
+    letter-spacing: -0.54px;
+    text-decoration: none;
+}
+
+.nav__text {
+    margin-bottom: 30px;
+    width: 430px;
+    color: #FFF;
+    font-size: 20px;
+    line-height: normal;
+    letter-spacing: -0.6px;
+}
+
+.nav__title {
+    max-width: 919px;
+    color: #1BFF07;
+    font-size: 80px;
+    line-height: 70px;
+    letter-spacing: -2.4px;
+}
