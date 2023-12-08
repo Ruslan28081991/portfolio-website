@@ -38,3 +38,40 @@
 .competencies__mg {
     margin-bottom: 63px;
 }
+
+@media (max-width: 961px) {
+    .competencies {
+        margin-bottom: 155px;
+    }
+
+    .competencies__title {
+        margin-bottom: 50px;
+        font-size: 45px;
+        letter-spacing: -1.35px;
+    }
+
+    .competencies__svg {
+        margin-bottom: 5px;
+        width: 36px;
+        height: 36px;
+    }
+
+    .competencies__name {
+        margin-bottom: 10px;
+        font-size: 28px;
+        letter-spacing: -0.54px;
+    }
+
+    .competencies__text {
+        max-width: 459px;
+        font-size: 18px;
+        line-height: 23px;
+        letter-spacing: -0.54px;
+    }
+
+    .competencies__mg {
+        margin-bottom: 50px;
+    }
+}
+
+@media (max-width: 575px) {}

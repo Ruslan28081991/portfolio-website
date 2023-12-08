@@ -60,3 +60,43 @@
     line-height: 70px;
     letter-spacing: -2.4px;
 }
+
+@media (max-width: 961px) {
+    .header {
+        padding: 32px 0;
+        background-position: 50%;
+    }
+
+    .nav {
+        margin-bottom: 295px;
+    }
+
+    .nav__buttons {
+        display: none;
+    }
+
+    .nav__title {
+        font-size: 60px;
+        line-height: 70px;
+        letter-spacing: -1.8px;
+    }
+}
+
+@media (max-width: 575px) {
+    .header {
+        height: 716px;
+    }
+
+    .nav__text {
+        max-width: 310px;
+        font-size: 15px;
+        letter-spacing: -0.45px;
+    }
+
+    .nav__title {
+        max-width: 353px;
+        font-size: 40px;
+        line-height: 47px;
+        letter-spacing: -1.2px
+    }
+}

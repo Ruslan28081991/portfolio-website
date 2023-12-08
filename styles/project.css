@@ -86,3 +86,50 @@
     line-height: normal;
     letter-spacing: 1.5px;
 }
+
+@media (max-width: 961px) {
+    .project__title {
+        margin-bottom: 55px;
+        font-size: 45px;
+        letter-spacing: -1.35px;
+    }
+
+    .project__container {
+        height: 445px;
+        border-radius: 24.261px;
+    }
+
+    .porject__span {
+        top: 40px;
+        left: 40px;
+        padding: 10px 10px;
+        font-size: 16px;
+        letter-spacing: -1.48px;
+    }
+
+    .project__name {
+        bottom: 75px;
+        left: 40px;
+        font-size: 28px;
+        letter-spacing: -0.84px;
+    }
+
+    .project__text {
+        bottom: 40px;
+        left: 40px;
+        font-size: 24px;
+        letter-spacing: -0.72px;
+    }
+
+    .project__container:last-child {
+        margin-bottom: 60px;
+    }
+
+    .project__btn {
+        padding: 48px 90px;
+        font-size: 24.261px;
+        letter-spacing: 1.272px;
+    }
+}
+
+@media (max-width: 575px) {}

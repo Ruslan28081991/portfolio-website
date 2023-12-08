@@ -55,3 +55,39 @@
     line-height: normal;
     letter-spacing: -0.66px;
 }
+
+@media (max-width: 961px) {
+    .work {
+        margin-bottom: 110px;
+    }
+
+    .work__title {
+        margin-bottom: 60px;
+        font-size: 28.304px;
+        letter-spacing: -0.849px;
+    }
+
+    .work__containers {
+        gap: 30px;
+    }
+
+    .work__box {
+        padding: 32px 8px;
+        height: 229px;
+    }
+
+    .work__name {
+        max-width: 380px;
+        font-size: 45px;
+        line-height: 110%;
+        letter-spacing: -1.35px;
+    }
+
+    .work__text {
+        max-width: 425px;
+        font-size: 18px;
+        letter-spacing: -0.54px;
+    }
+}
+
+@media (max-width: 575px) {}
