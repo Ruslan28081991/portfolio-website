@@ -58,7 +58,6 @@
 
     .competencies__name {
         margin-bottom: 10px;
-        font-size: 28px;
         letter-spacing: -0.54px;
     }
 
@@ -74,4 +73,41 @@
     }
 }
 
-@media (max-width: 575px) {}
+@media (max-width: 575px) {
+    .competencies {
+        margin-bottom: 100px;
+    }
+
+    .competencies__title {
+        margin-bottom: 50px;
+        font-size: 45px;
+        letter-spacing: -1.35px;
+    }
+
+    .competencies__container {
+        display: flex;
+        flex-direction: column;
+        row-gap: 58px;
+    }
+
+    .competencies__svg {
+        margin-bottom: 10px;
+    }
+
+    .competencies__name {
+        margin-bottom: 15px;
+        max-width: 342px;
+        font-size: 28px;
+        letter-spacing: -0.84px;
+    }
+
+    .competencies__text {
+        max-width: 349px;
+        font-size: 18px;
+        letter-spacing: -0.54px;
+    }
+
+    .competencies__mg {
+        margin-bottom: px;
+    }
+}

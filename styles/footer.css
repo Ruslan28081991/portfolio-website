@@ -23,7 +23,8 @@
 }
 
 .menu__buttons {
-    width: 24%;
+    /* width: 24%; */
+    /* max-width: 300px; */
     display: flex;
     justify-content: space-between;
 }
@@ -63,4 +64,35 @@
     }
 }
 
-@media (max-width: 575px) {}
+@media (max-width: 575px) {
+    .footer {
+        padding: 47px 0;
+        height: auto;
+    }
+
+    .menu__footer {
+        margin-bottom: 40px;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .menu__btn {
+        max-width: 250px;
+        font-size: 15px;
+        letter-spacing: -0.45px;
+    }
+
+    .menu__buttons {
+        max-width: 180px;
+    }
+
+    .menu__box {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .menu__text {
+        font-size: 13px;
+        letter-spacing: -0.39px;
+    }
+}

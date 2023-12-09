@@ -132,4 +132,46 @@
     }
 }
 
-@media (max-width: 575px) {}
+@media (max-width: 575px) {
+    .project {
+        margin-bottom: 95px;
+    }
+
+    .project__title {
+        margin-bottom: 35px;
+        max-width: 268px;
+        font-size: 30px;
+        letter-spacing: -0.9px;
+    }
+
+    .porject__span {
+        top: 30px;
+        left: 30px;
+        padding: 8px 10px;
+        font-size: 13px;
+        letter-spacing: -0.39px;
+    }
+
+    .project__name {
+        left: 35px;
+        font-size: 28px;
+        letter-spacing: -0.84px;
+    }
+
+    .project__text {
+        bottom: 50px;
+        left: 35px;
+        font-size: 16px;
+        letter-spacing: -0.48px;
+    }
+
+    .project__container:last-child {
+        margin-bottom: 70px;
+    }
+
+    .project__btn {
+        padding: 28px 72px;
+        font-size: 18px;
+        letter-spacing: 0.86px;
+    }
+}
