@@ -202,3 +202,23 @@
         letter-spacing: -0.45px;
     }
 }
+
+@media (max-width:380px) {
+    .connection__input {
+        width: 250px;
+    }
+
+    .connection__btn {
+        width: 250px;
+    }
+}
+
+@media (max-width:310px) {
+    .connection__input {
+        width: 200px;
+    }
+
+    .connection__btn {
+        width: 200px;
+    }
+}

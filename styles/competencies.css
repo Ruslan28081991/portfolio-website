@@ -58,7 +58,8 @@
 
     .competencies__name {
         margin-bottom: 10px;
-        letter-spacing: -0.54px;
+        font-size: 28px;
+        letter-spacing: -0.84px;
     }
 
     .competencies__text {
