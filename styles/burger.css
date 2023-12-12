@@ -1,9 +1,12 @@
 .burger__button {
     display: none;
     position: absolute;
-    top: 15px;
-    right: 50px;
+    top: 20px;
+    right: 20px;
     background: url("../image/burger.svg");
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 50px;
     height: 50px;
     z-index: 5;
@@ -33,7 +36,7 @@
     background: url("../image/close.svg");
     background-repeat: no-repeat;
     top: 30px;
-    right: 35px;
+    right: 5px;
     width: 50px;
     height: 50px;
 }
@@ -118,5 +121,11 @@
 
     .burger__btn {
         font-size: 20px;
+    }
+}
+
+@media (max-width: 400px) {
+    .burger__container {
+        width: 70%;
     }
 }
