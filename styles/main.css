@@ -14,6 +14,7 @@ body {
     font-family: IBM Plex Mono;
     width: 100%;
     background: #FFFFFF;
+    background-color: #000;
 }
 
 .body__fixed {
@@ -24,11 +25,6 @@ body {
     margin: 0 auto;
     max-width: 1180px;
     padding: 0 15px;
-}
-
-main {
-    padding-top: 150px;
-    background-color: #000;
 }
 
 @media (max-width: 961px) {
@@ -43,9 +39,5 @@ main {
     .container {
         padding-left: 12px;
         padding-right: 12px;
-    }
-
-    main {
-        padding-top: 100px;
     }
 }

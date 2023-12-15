@@ -31,13 +31,13 @@
     text-transform: uppercase;
 }
 
-.nav__buttons {
+.nav__list {
     width: 44%;
     display: flex;
     justify-content: space-between;
 }
 
-.nav__btn {
+.link {
     color: #FFF;
     font-size: 18px;
     line-height: normal;
@@ -45,7 +45,7 @@
     text-decoration: none;
 }
 
-.nav__text {
+.header__text {
     margin-bottom: 30px;
     width: 430px;
     color: #FFF;
@@ -54,7 +54,7 @@
     letter-spacing: -0.6px;
 }
 
-.nav__title {
+.header__title {
     max-width: 919px;
     color: #1BFF07;
     font-size: 80px;
@@ -72,11 +72,11 @@
         margin-bottom: 295px;
     }
 
-    .nav__buttons {
+    .nav__list {
         display: none;
     }
 
-    .nav__title {
+    .header__title {
         font-size: 60px;
         line-height: 70px;
         letter-spacing: -1.8px;
@@ -94,17 +94,16 @@
         height: 716px;
     }
 
-    .nav__text {
+    .header__text {
         max-width: 310px;
         font-size: 15px;
         letter-spacing: -0.45px;
     }
 
-    .nav__title {
+    .header__title {
         max-width: 400px;
         font-size: 40px;
         line-height: 47px;
         letter-spacing: -1.2px
     }
 }
-

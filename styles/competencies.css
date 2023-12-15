@@ -29,7 +29,6 @@
 }
 
 .competencies__text {
-    max-width: 553px;
     font-size: 22px;
     line-height: 29px;
     letter-spacing: -0.66px;
@@ -63,7 +62,6 @@
     }
 
     .competencies__text {
-        max-width: 459px;
         font-size: 18px;
         line-height: 23px;
         letter-spacing: -0.54px;
@@ -97,18 +95,12 @@
 
     .competencies__name {
         margin-bottom: 15px;
-        max-width: 342px;
         font-size: 28px;
         letter-spacing: -0.84px;
     }
 
     .competencies__text {
-        max-width: 349px;
         font-size: 18px;
         letter-spacing: -0.54px;
-    }
-
-    .competencies__mg {
-        margin-bottom: px;
     }
 }
