@@ -7,13 +7,13 @@
     background: #FFF;
 }
 
-.menu__footer {
+.footer__menu {
     margin-bottom: 60px;
     display: flex;
     justify-content: space-between;
 }
 
-.menu__btn {
+.footer__link {
     text-decoration: none;
     color: #000;
     font-family: Manrope;
@@ -22,18 +22,18 @@
     letter-spacing: -0.66px
 }
 
-.menu__buttons {
+.footer__list {
     display: flex;
     justify-content: space-between;
     gap: 25px;
 }
 
-.menu__box {
+.footer__container {
     display: flex;
     justify-content: space-between;
 }
 
-.menu__text {
+.footer__text {
     color: #000;
     font-family: Manrope;
     font-size: 20px;
@@ -48,16 +48,16 @@
         height: 184px;
     }
 
-    .menu__footer {
+    .footer__menu {
         margin-bottom: 45px;
     }
 
-    .menu__btn {
+    .footer__link {
         font-size: 16px;
         letter-spacing: -0.48px;
     }
 
-    .menu__text {
+    .footer__text {
         font-size: 14px;
         letter-spacing: -0.42px;
     }
@@ -69,28 +69,28 @@
         height: auto;
     }
 
-    .menu__footer {
+    .footer__menu {
         margin-bottom: 40px;
         flex-direction: column;
         gap: 15px;
     }
 
-    .menu__btn {
+    .footer__link {
         max-width: 250px;
         font-size: 15px;
         letter-spacing: -0.45px;
     }
 
-    .menu__buttons {
+    .footer__list {
         max-width: 180px;
     }
 
-    .menu__box {
+    .footer__container {
         flex-direction: column;
         gap: 15px;
     }
 
-    .menu__text {
+    .footer__text {
         font-size: 13px;
         letter-spacing: -0.39px;
     }

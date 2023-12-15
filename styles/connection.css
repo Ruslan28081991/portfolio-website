@@ -13,7 +13,7 @@
     right: 0;
 }
 
-.connection__box {
+.connection__container {
     padding-top: 95px;
     height: 100%;
 }
@@ -104,7 +104,7 @@
         height: 484px;
     }
 
-    .connection__box {
+    .connection__container {
         padding: 50px 35px;
     }
 
@@ -176,7 +176,7 @@
         display: none;
     }
 
-    .connection__box {
+    .connection__container {
         padding: 50px 0;
     }
 
