@@ -1,8 +1,8 @@
-.project {
+.projects {
     padding: 150px 0;
 }
 
-.project__title {
+.projects__title {
     margin-bottom: 40px;
     color: #FFF;
     font-size: 55px;
@@ -42,7 +42,7 @@
     background: #1BFF07;
 }
 
-.project__name {
+.project__title {
     position: relative;
     top: 388px;
     left: 55px;
@@ -64,11 +64,11 @@
     letter-spacing: -0.9px;
 }
 
-.project__container:last-child {
+.project:last-child {
     margin-bottom: 80px;
 }
 
-.project__btn {
+.projects__btn {
     padding: 60px 120px;
     border-radius: 10px;
     border: 1px solid #1BFF07;
@@ -82,7 +82,7 @@
 }
 
 @media (max-width: 961px) {
-    .project__title {
+    .projects__title {
         margin-bottom: 55px;
         font-size: 45px;
         letter-spacing: -1.35px;
@@ -103,7 +103,7 @@
         letter-spacing: -1.48px;
     }
 
-    .project__name {
+    .project__title {
         top: 315px;
         left: 40px;
         font-size: 28px;
@@ -117,11 +117,11 @@
         letter-spacing: -0.72px;
     }
 
-    .project__container:last-child {
+    .project:last-child {
         margin-bottom: 60px;
     }
 
-    .project__btn {
+    .projects__btn {
         padding: 48px 90px;
         font-size: 24.261px;
         letter-spacing: 1.272px;
@@ -129,11 +129,11 @@
 }
 
 @media (max-width: 575px) {
-    .project {
+    .projects {
         padding: 100px 0;
     }
 
-    .project__title {
+    .projects__title {
         margin-bottom: 35px;
         font-size: 30px;
         letter-spacing: -0.9px;
@@ -147,7 +147,7 @@
         letter-spacing: -0.39px;
     }
 
-    .project__name {
+    .project__title {
         left: 35px;
         font-size: 28px;
         letter-spacing: -0.84px;
@@ -160,11 +160,11 @@
         letter-spacing: -0.48px;
     }
 
-    .project__container:last-child {
+    .project:last-child {
         margin-bottom: 70px;
     }
 
-    .project__btn {
+    .projects__btn {
         padding: 28px 72px;
         font-size: 18px;
         letter-spacing: 0.86px;

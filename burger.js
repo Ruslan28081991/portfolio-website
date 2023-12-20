@@ -4,7 +4,7 @@ const BODY_FIXED_CLASSNAME_BUR = "body__fixed";
 
 const bodyNodeBur = document.querySelector("body");
 const burgerNode = document.querySelector(".burger");
-const burgerBtnNode = document.querySelector(".burger__button");
+const burgerBtnNode = document.querySelector(".header__burger-button");
 const burgerContentNode = document.querySelector(".burger__contacts");
 
 burgerBtnNode.addEventListener("click", toggleBurger);

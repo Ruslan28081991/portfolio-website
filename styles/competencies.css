@@ -16,11 +16,11 @@
     row-gap: 40px;
 }
 
-.competencies__svg {
+.competence__img {
     margin-bottom: 10px;
 }
 
-.competencies__name {
+.competence__title {
     margin-bottom: 15px;
     color: #1BFF07;
     font-size: 35px;
@@ -28,13 +28,13 @@
     letter-spacing: -1.05px;
 }
 
-.competencies__text {
+.competence__text {
     font-size: 22px;
     line-height: 29px;
     letter-spacing: -0.66px;
 }
 
-.competencies__mg {
+.competencies__m_b {
     margin-bottom: 63px;
 }
 
@@ -49,25 +49,25 @@
         letter-spacing: -1.35px;
     }
 
-    .competencies__svg {
+    .competence__img {
         margin-bottom: 5px;
         width: 36px;
         height: 36px;
     }
 
-    .competencies__name {
+    .competence__title {
         margin-bottom: 10px;
         font-size: 28px;
         letter-spacing: -0.84px;
     }
 
-    .competencies__text {
+    .competence__text {
         font-size: 18px;
         line-height: 23px;
         letter-spacing: -0.54px;
     }
 
-    .competencies__mg {
+    .competencies__m_b {
         margin-bottom: 50px;
     }
 }
@@ -89,17 +89,17 @@
         row-gap: 58px;
     }
 
-    .competencies__svg {
+    .competence__img {
         margin-bottom: 10px;
     }
 
-    .competencies__name {
+    .competence__title {
         margin-bottom: 15px;
         font-size: 28px;
         letter-spacing: -0.84px;
     }
 
-    .competencies__text {
+    .competence__text {
         font-size: 18px;
         letter-spacing: -0.54px;
     }
